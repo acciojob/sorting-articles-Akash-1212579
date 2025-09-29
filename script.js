@@ -11,7 +11,7 @@ bands.sort((a, b) => {
   return strA.localeCompare(strB);
 });
 
-let ulItems = document.getElementById("band");
+let ulItems = document.getElementById("bands");
 bands.forEach(val=>{
 	let newli = document.createElement("li");
 	newli.textContent = val;
